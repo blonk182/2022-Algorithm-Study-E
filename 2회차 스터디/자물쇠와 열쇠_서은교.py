@@ -1,4 +1,4 @@
-fdef rotation(arr):
+def rotation(arr):
     n = len(arr)
     ret = [[0] * n for _ in range(n)]
 
