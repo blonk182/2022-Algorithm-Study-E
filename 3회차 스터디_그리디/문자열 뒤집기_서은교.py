@@ -1,6 +1,10 @@
 s = input()
-result = [0]*2
+
 now = int(s[0])
+
+result = [0] * 2
+
+result[now] = 1
 
 for i in s:
   num = int(i)
